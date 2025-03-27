@@ -1,0 +1,36 @@
+# API e LLM
+anthropic==0.9.0
+httpx==0.25.0
+
+# Processamento de documentos
+PyPDF2==3.0.1
+pdfminer.six==20221105
+
+# Embeddings e vetorização
+faiss-cpu==1.7.4
+sentence-transformers==2.2.2
+numpy==1.24.3
+scipy==1.10.1
+
+# CLI e interface
+colorama==0.4.6
+rich==13.5.3
+typer==0.9.0
+prompt-toolkit==3.0.39
+
+# Utilitários
+pydantic==2.0.3
+python-dotenv==1.0.0
+tqdm==4.66.1
+python-slugify==8.0.1
+
+# Logging e formatação
+structlog==23.1.0
+
+# Desenvolvimento e testes
+pytest==7.4.0
+pytest-cov==4.1.0
+black==23.7.0
+isort==5.12.0
+flake8==6.1.0
+mypy==1.5.1 
